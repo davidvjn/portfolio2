@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    font-family: "Abril Fatface", "Bradeley Hand", cursive, "Apple Chancery", Garamond, serif;
+}
+
+#keep_calm {
+  background-image: url(../images/keep_calm.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #3271b4;
+  height: 65vh;
+  width: 100%;
+}
+
+#navigation {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+#accueil {
+  display: flex;
+  background-color: rgba(37, 3, 33, 0.272);
+  width: 100%;
+  height: 1cm;
+  align-items: center;
+  justify-items: center;
+  /* border-radius: 10%; */
+}
+
+h2 {
+  background-color: #EACEAE;
+  text-align: center;
+  height: 35vh;
+  width: 100vh;
+  font-family: "Abril Fatface", "Comic Sans MS", cursive;
+}
+
+/* button {
+  height: 1cm;
+  width: 5cm;
+  border-radius: 20px;
+  font-size: 0.6cm;
+  margin: center;
+  color: rgb(231, 164, 87);
+  /* border: rgb(214, 140, 28); */
+  /* font-weight: bold; */
+  /* align-content: center; */
+/* }  */
+
+.david {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  font-size: 2.5em;
+  background-color: #EACEAE;
+  font-weight: bold;
+}
+
+.photo_dv {
+  height: 70%;
+  width: 20%;
+}
+
+#skills {
+  text-align: center;
+}
+
+#html {
+  text-align: center;
+} 
+
+.droiche {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h6 {
+  text-align: center;  
+} */
+
+.droite {
+  display: flex;
+  flex-direction: column;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gauche {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.progress {
+  width: 70vh;
+  /* margin-left: auto;
+  margin-right: auto;
+  text-align: center; */
+}
+
+section img {
+  height: 9vh;
+  width: 9vh;
+}
+
+/* #git {
+  width: 8%;
+  height: 8%;
+} */
+
+body {
+  color: #333;
+  font-family: "Raleway", Arial, Helvetica, serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  background: url(http://josetxu.com/img/fondo_blanco.png) repeat 0 0 #fff;
+}
+  
+h1 {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 5% 0;
+  padding: 0.5em;
+  margin: 0 0 5% 0;
+}
+
+main {
+  background-color: rgb(196, 148, 101);
+}  
+
+#diplomes {
+  height: 100vh;
+  width: 100%;
+}
+
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 23.7%;
+}
+  
+.cardBox:hover .card {
+  transform: rotateY( 180deg);
+}
+  
+.card {
+  background: #222;
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+  
+.card p {
+  margin-bottom: 1.8em;
+}
+  
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+  
+.card .front strong {
+  background: #fff;
+  border-radius: 100%;
+  /* color: #222; */
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+  
+.card .back {
+  transform: rotateY( 180deg);
+  background: rgb(236, 204, 171);
+}
+  
+.card .back a {
+  padding: 0.3em 0.5em;
+  /* background: #333; */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+  
+.card .back a:hover {
+  /* background: #fff; */
+  color: rgba(158, 152, 152, 0.486);
+  text-shadow: 0 0 1px #333;
+}
+  
+.cardBox:nth-child(1) .card .back {
+  background: rgb(236, 204, 171);
+  /* background: rgba(116, 113, 113, 0.459); */
+}
+
+.logo_etudes1 {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-content: center;
+}
+  
+.cardBox:nth-child(2) .card .back {
+  background: rgb(236, 204, 171);
+}
+  
+.logo_etudes2 {
+  width: 70%;
+  height: 50%;
+  justify-content: center;
+  align-content: center;
+}
+
+.cardBox:nth-child(3) .card .back {
+  background: rgb(236, 204, 171);
+}
+  
+.cardBox:nth-child(5) .card .back {
+  background: rgb(236, 204, 171);
+}
+  
+.cardBox:nth-child(2) .card {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+  
+.cardBox:nth-child(3) .card {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+  
+.cardBox:nth-child(4) .card {
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+}
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: 
+    rotateY( 0deg);
+  }
+}
+  
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+  
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+}
+  .card {
+    height: 285px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+  
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .card {
+    height: 260px;
+  }
+}
+
+li img {
+  height: 2cm;
+  width: 4.5cm;
+}
+
+#lienCv {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30%;
+  border: 2px solid blueviolet;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 50%;
+  background-color: #EACEAE
+}
+
+#together {
+  display: flex;
+}
+
+#parcours {
+  display: block;
+}
+
+.parcours {
+  text-align: justify;
+  justify-content: center;
+  list-style-type: none;
+  /* margin-left: 5%; */
+}
+
+section h3 {
+  font-size: 0.7em;
+}
+
+#transv {
+  display: block;
+  float: right;
+}
+
+ul {
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  font-size: 2em;
+}
+
+.atouts {
+  height: 100vh;
+}
+
+footer {
+  /* display: flex; */
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+  justify-items: center;
+  text-justify: center;
+}
